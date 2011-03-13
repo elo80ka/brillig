@@ -33,12 +33,13 @@
 		<div id="page">
 			<!-- start content -->
 			<div id="content">
-				<div class="tooltip-bubble">
-					<span>This is an awesome message...yeah!</span>
+				{% for message in messages %}
+				<div class="tooltip-bubble messages {{ message.tags }}">
+					<span>{{ message }}</span>
 					<div class="tooltip-pointer-down">
 						<div class="tooltip-pointer-down-overlay"></div>
 					</div>
-				</div>
+				</div>{% endfor %}
 				{% block content %}
 				<div class="section">
 					<h1 class="title">Welcome to our website </h1>

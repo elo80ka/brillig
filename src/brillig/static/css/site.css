@@ -191,6 +191,7 @@ img.right {
 /* Page */
 
 #page {
+	position: relative;
 	padding-top: 20px;
 }
 
@@ -481,7 +482,7 @@ form li:after {
 	position: absolute;          /* Allow positioned elements inside */
     width: 240px;				 /* Not setting a height might cause issues in some browsers...test! */
     padding: 8px;
-    background: #711111; /*#bfdcff;*/
+    background-color: #711111; /*#bfdcff;*/
     border: 3px solid #fff; /*#76b3ff;*/
 	left: 295px;
 	bottom: 25px;
@@ -507,10 +508,36 @@ form li:after {
     border-top: 10px solid #711111; /*#bfdcff;*/       /* Smaller triangle */
     border-right: 10px solid transparent;
 }
-/* This is the class we'll add, for all form errors: */
-.field-error {
+.tooltip-bubble span {
 	position: relative;          /* Place above the other elements */
     margin: 0;
     color: #f3f3f3; /*#222;*/
     font: bold 12px arial;
+}
+
+.messages {
+    width: 620px;
+    padding: 8px;
+    background-color: #222;
+	opacity: 0.7;
+	left: -10px;
+	top: -10px;
+	bottom: inherit;
+}
+.messages .tooltip-pointer-down,
+.messages .tooltip-pointer-down-overlay {
+    bottom: -15px;
+    left: 50%;
+	border-left: 15px solid transparent;
+}
+.messages .tooltip-pointer-down-overlay {
+	top: -15px;
+    left: -10px;
+	border-left: 10px solid transparent;
+	border-color: #222 transparent transparent transparent;
+}
+.messages span {
+	display: block;
+	text-align: center;
+	font-size: 14px;
 }
