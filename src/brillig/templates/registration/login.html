@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load form_tags %}
+
+{% block pagecss %}banner{% endblock %}
+
+{% block content %}
+<div id="banner">&nbsp;</div>
+<div class="section">
+	<h1 class="title">Get started now</h1>
+	<div class="entry">
+		<form method="post" action="">
+			<fieldset>
+				<ul>
+					{% render_form form %}
+					<li>
+						<input type="submit" value="Go Through" />
+					</li>
+				</ul>
+			</fieldset>
+		</form>
+	</div>
+	<div class="meta"></div>
+</div>
+{% endblock %}

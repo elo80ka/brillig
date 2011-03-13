@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load form_tags %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<div class="section">
+    <h1 class="title">{{ title }}</h1>
+    <div class="entry">
+        <form method="post" action="">
+            <fieldset>
+                <ul>
+                    {% render_form form %}
+                    <li>
+                        <input type="submit" value="Save" />
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </div>
+	<div class="meta"></div>
+</div>
+{% endblock %}

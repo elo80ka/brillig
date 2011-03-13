@@ -1,0 +1,6 @@
+{% for field in form.visible_fields %}
+{% include "form_utils/field.html" %}{% endfor %}
+<li style="display:none; visibility:hidden">
+    {% for field in form.hidden_fields %}{{ field.as_hidden }}{% endfor %}
+    {% csrf_token %}
+</li>

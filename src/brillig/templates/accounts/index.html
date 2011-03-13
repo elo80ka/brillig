@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load form_tags %}
+
+{% block title %}Customers{% endblock %}
+
+{% block content %}
+<div class="section">
+    <div class="entry">
+        <form method="get" action="">
+            <div id="search" class="clearfix">
+                <label for="q">Enter a customer's phone number</label>
+                <input type="text" name="q" />
+                <input type="image" src="{{ STATIC_URL }}images/find.png" title="Find Customer" />
+                <a href="{% url customers_add_customer %}">Add a Customer</a>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,516 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin-top: 49px;
+	padding: 0;
+	background: #242424;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	color: #BBBBBB;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-transform: lowercase;
+	font-weight: normal;
+	color: #48ACDE;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+p, ul, ol {
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 26px;
+}
+
+a {
+	color: #48ACDE;
+}
+a:hover, a:active {
+	text-decoration: none;
+	color: #48ACDE;
+}
+a:visited {
+	color: #48ACDE;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin-right: 15px;
+}
+
+img.right {
+	float: right;
+	margin-left: 15px;
+}
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+.rounded {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+/* Header */
+
+#header {
+	clear: both;
+	margin: 0 auto 10px auto;
+	background: #000;
+	text-align: center;
+	width: 620px;
+}
+
+/* Menu */
+
+#menu {
+	float: left;
+	margin-left: 12%;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+#menu li {
+	display: block;
+	float: left;
+}
+#menu a {
+	display: block;
+	float: left;
+	padding: 10px;
+	font: 14px/58px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #fff;
+}
+#menu span {
+	visibility: hidden;
+	padding: 2px 6px;
+	background: #000;
+	font-weight: bold;
+	opacity: 0.8;
+}
+#menu a:hover { 
+	text-decoration: none;
+}
+#menu a:hover span {
+	visibility: visible;
+}
+#menu .current a {
+	color: #48ACDE;
+}
+
+#menu a.services {
+	background: url(../images/services.png) 50% 50% no-repeat;
+}
+#menu a.customers {
+	background: url(../images/customers.png) 50% 50% no-repeat;
+}
+#menu a.bills {
+	background: url(../images/bills.png) 50% 50% no-repeat;
+}
+#menu a.payments {
+	background: url(../images/payments.png) 50% 50% no-repeat;
+}
+#menu a.reports {
+	background: url(../images/reports.png) 50% 50% no-repeat;
+}
+
+/** LOGO */
+
+.banner {
+	padding-top: 185px;
+	background: url(../images/one_tree_valley.jpg) no-repeat center top;
+}
+
+#logo {
+	width: 620px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+#logo h1, #logo h2 {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+}
+#logo h1 { 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:36px;
+	font-style: italic;
+}
+#logo h1 a {
+	text-decoration: none;
+	color: #FFFFFF; 
+}
+#logo h1 a:hover { text-decoration: underline; }
+#logo h2 {
+	padding: 20px 0 0 5px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	color: #48ACDE;
+}
+#logo p a {
+	text-decoration: none;
+	color: #B6ACA2;
+}
+#logo p a:hover { text-decoration: underline; }
+
+#wrapper {
+	width: 620px;
+	margin: 0 auto;
+	background-color: #000;
+}
+
+/* Page */
+
+#page {
+	padding-top: 20px;
+}
+
+/* Post */
+
+.section {
+	padding: 15px 15px;
+}
+
+.section .title {
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+
+.section h1 {
+}
+
+.section h2 {
+	height: 26px;
+	padding: 8px 0 0 0;
+	font-size: 18px;
+	color: #DADADA;
+}
+
+.section .entry {
+	padding: 0 15px;
+}
+
+.section .meta {
+	margin: 0 15px 10px 15px;
+	padding: 15px 0 30px 0;
+	border-top: 1px dashed #333333;
+	font-size: 10px;
+}
+
+.section .meta p {
+	margin: 0;
+	line-height: normal;
+	color: #999999;
+}
+
+.section .meta .byline {
+	float: left;
+}
+
+.section .meta .links {
+	float: right;
+}
+
+.section .meta .more {
+	padding: 0 20px 0 18px;
+	background: url(../images/img11.gif) no-repeat left center;
+}
+
+.section .meta .comments {
+	padding-left: 22px;
+	background: url(../images/img12.gif) no-repeat left center;
+}
+
+/* Search */
+
+#search h2 {
+	margin-bottom: 20px;
+}
+
+#s {
+	width: 115px;
+	margin-right: 5px;
+	padding: 3px;
+	border: 1px solid #BED99C;
+}
+
+#x {
+	padding: 3px;
+	border: none;
+	background: #48ACDE;
+	text-transform: lowercase;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+/* Boxes */
+
+.box1 {
+	padding: 20px;
+}
+
+.box2 {
+	color: #BABABA;
+}
+
+.box2 h2 {
+	margin-bottom: 15px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.box2 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.box2 a:link, .box2 a:hover, .box2 a:active, .box2 a:visited  {
+	color: #EDEDED;
+}
+
+/* Footer */
+#footer-wrap {
+	width: 860px;
+	height: 64px;
+	margin: 0 auto;
+}
+
+#footer {
+	margin: 0 auto;
+	height: 64px;
+	min-height: 64px;
+	padding: 0;
+	font-size: 10px;
+}
+
+html>body #footer {
+	height: auto;
+}
+
+#footer p {
+}
+
+#legal {
+	clear: both;
+	padding-top: 10px;
+	padding-left: 30px;
+	text-align: center;
+	color: #999999;
+}
+
+#legal a {
+}
+
+/* Forms */
+
+form ul {
+	list-style: none;
+	margin: 0;
+}
+
+fieldset {
+	margin-left: 15px;
+	padding: 0 25px;
+	border: none;
+	width: 400px;
+}
+legend {
+	display:block;
+	padding-bottom:20px;
+	font-size:24px;
+	font-weight:bold;
+	line-height:40px;
+}
+input[type="text"],
+input[type="password"],
+textarea, select {
+	padding: 5px 8px;
+	font: 13px/14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 1px solid #bbb;
+	background-color: #090909;
+	color: #777;
+	width: 350px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+input[type="text"],
+input[type="password"] {
+	height: 22px;
+}
+textarea {
+	height:90px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+	border-color: #48ACDE !important;
+	background-color: #0f0f0f;
+	outline: none !important;
+}
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+a.btn {
+	float: right;
+	margin-right: 0;
+	padding: 4px 20px;
+	line-height: 30px;
+	font-weight: bold;
+	text-shadow: #000 0 1px 0;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: none;
+	background-color: #222;
+	color: #fff;
+	cursor: pointer;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+a.btn:hover {
+	background-color: #111;
+}
+a.btn {
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+form li {
+	margin: 0 0 20px 0;
+	position:relative;
+}
+form label {
+	float:left;
+	margin-bottom:3px;
+	font-size: 14px;
+	text-indent:3px;
+	width:100%;
+}
+form li ul {
+	margin: 0;
+	padding: 10px 0 0 10px;
+}
+form li ul li {
+	margin: 0 0 3px 0;
+}
+form li ul label {
+	margin-bottom: 0;
+	line-height: 13px;
+	text-indent: 5px;
+}
+form em {
+	margin: 0 0 5px 0;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 12px;
+	text-indent: 3px;
+	font-style: normal;
+	float: left;
+	color: #6f6f6f;
+}
+form li input {
+	float:left;
+}
+form li:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+/* Search form */
+
+#search {
+	position: relative;
+	margin: 0 auto 20px;
+	width: 500px;
+}
+#search input[type="text"] {
+	margin: 4px 0 15px;
+	padding: 8px 0;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+}
+#search input[type="image"] {
+	position: absolute;
+	right: 5px;
+	bottom: 35px;
+	z-index: 500;
+}
+
+/* CSS error popups */
+
+.tooltip-bubble {
+	position: absolute;          /* Allow positioned elements inside */
+    width: 240px;				 /* Not setting a height might cause issues in some browsers...test! */
+    padding: 8px;
+    background: #711111; /*#bfdcff;*/
+    border: 3px solid #fff; /*#76b3ff;*/
+	left: 295px;
+	bottom: 25px;
+	z-index: 100;
+	opacity: 0.8;
+    -moz-border-radius: 10px;    /* Rounded border mozilla browsers */
+    -webkit-border-radius: 10px; /* Rounded border webkit browsers */
+    border-radius: 10px;         /* W3c rounded border */
+}
+.tooltip-bubble .tooltip-pointer-down,
+.tooltip-bubble .tooltip-pointer-down-overlay {
+	position: absolute;  /* Position relative to the box */
+    width: 0;            /* No width */
+    height: 0;           /* No height */
+    bottom: -15px;       /* position 15px below the bottom of the box */
+    left: 15px;          /* Position 40px from the right of the box */
+    border-top: 15px solid #fff; /*#76b3ff;*/        /* The triangle */
+    border-right: 15px solid transparent;  /* Right width */
+}
+.tooltip-bubble .tooltip-pointer-down-overlay {
+	top: -17px;          /* Position relative to the arrow */
+    left: 3px;           /* Position relative to the arrow */
+    border-top: 10px solid #711111; /*#bfdcff;*/       /* Smaller triangle */
+    border-right: 10px solid transparent;
+}
+/* This is the class we'll add, for all form errors: */
+.field-error {
+	position: relative;          /* Place above the other elements */
+    margin: 0;
+    color: #f3f3f3; /*#222;*/
+    font: bold 12px arial;
+}

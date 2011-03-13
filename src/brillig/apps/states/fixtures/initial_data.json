@@ -1,0 +1,6482 @@
+[
+    {
+        "pk": 1,
+        "model": "states.state",
+        "fields": {
+            "code": "ABI",
+            "name": "Abia"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "states.state",
+        "fields": {
+            "code": "ADA",
+            "name": "Adamawa"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "states.state",
+        "fields": {
+            "code": "AKW",
+            "name": "Akwa Ibom"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "states.state",
+        "fields": {
+            "code": "ANA",
+            "name": "Anambra"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "states.state",
+        "fields": {
+            "code": "BAU",
+            "name": "Bauchi"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "states.state",
+        "fields": {
+            "code": "BAY",
+            "name": "Bayelsa"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "states.state",
+        "fields": {
+            "code": "BEN",
+            "name": "Benue"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "states.state",
+        "fields": {
+            "code": "BOR",
+            "name": "Borno"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "states.state",
+        "fields": {
+            "code": "CRO",
+            "name": "Cross River"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "states.state",
+        "fields": {
+            "code": "DEL",
+            "name": "Delta"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "states.state",
+        "fields": {
+            "code": "EBO",
+            "name": "Ebonyi"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "states.state",
+        "fields": {
+            "code": "EDO",
+            "name": "Edo"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "states.state",
+        "fields": {
+            "code": "EKI",
+            "name": "Ekiti"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "states.state",
+        "fields": {
+            "code": "ENU",
+            "name": "Enugu"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "states.state",
+        "fields": {
+            "code": "FCT",
+            "name": "Federal Capital Territory"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "states.state",
+        "fields": {
+            "code": "GOM",
+            "name": "Gombe"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "states.state",
+        "fields": {
+            "code": "IMO",
+            "name": "Imo"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "states.state",
+        "fields": {
+            "code": "JIG",
+            "name": "Jigawa"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "states.state",
+        "fields": {
+            "code": "KAD",
+            "name": "Kaduna"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "states.state",
+        "fields": {
+            "code": "KAN",
+            "name": "Kano"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "states.state",
+        "fields": {
+            "code": "KAT",
+            "name": "Katsina"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "states.state",
+        "fields": {
+            "code": "KEB",
+            "name": "Kebbi"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "states.state",
+        "fields": {
+            "code": "KOG",
+            "name": "Kogi"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "states.state",
+        "fields": {
+            "code": "KWA",
+            "name": "Kwara"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "states.state",
+        "fields": {
+            "code": "LAG",
+            "name": "Lagos"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "states.state",
+        "fields": {
+            "code": "NAS",
+            "name": "Nasarawa"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "states.state",
+        "fields": {
+            "code": "NIG",
+            "name": "Niger"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "states.state",
+        "fields": {
+            "code": "OGU",
+            "name": "Ogun"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "states.state",
+        "fields": {
+            "code": "OND",
+            "name": "Ondo"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "states.state",
+        "fields": {
+            "code": "OSU",
+            "name": "Osun"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "states.state",
+        "fields": {
+            "code": "OYO",
+            "name": "Oyo"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "states.state",
+        "fields": {
+            "code": "PLA",
+            "name": "Plateau"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "states.state",
+        "fields": {
+            "code": "RIV",
+            "name": "Rivers"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "states.state",
+        "fields": {
+            "code": "SOK",
+            "name": "Sokoto"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "states.state",
+        "fields": {
+            "code": "TAR",
+            "name": "Taraba"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "states.state",
+        "fields": {
+            "code": "YOB",
+            "name": "Yobe"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "states.state",
+        "fields": {
+            "code": "ZAM",
+            "name": "Zamfara"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Birnin-Gwari"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Chikun"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Giwa"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Igabi"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Ikara"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Jaba"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Jema'a"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Kachia"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Kaduna-North"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Kagarko"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Kajuru"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Kaura"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Kauru"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Kubau"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Kudan"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Lere"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Makarfi"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Sabon-Gari"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Sanga"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Soba"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Zangon-Kataf"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "Zaria"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "states.lga",
+        "fields": {
+            "state": 19,
+            "name": "kaduna-South"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Akoko-North-East"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Akoko-North-West"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Akoko-South-East"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Akoko-South-West"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Akure-North"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Akure-South"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Ese-Odo"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Idanre"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Ifedore"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Ile-Oluji-Okeigbo"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Irele"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Odigbo"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Okitipupa"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Ondo-East"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Ondo-west"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Ose"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "Owo"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "states.lga",
+        "fields": {
+            "state": 29,
+            "name": "ijaye"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Adavi"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Ajaokuta"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Ankpa"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Bassa"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Dekina"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Ibaji"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Idah"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Igalamela-Odolu"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Ijumu"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Kabba/Bunu"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Kogi"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Lokoja"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Mopa-Muro"
+        }
+    },
+    {
+        "pk": 55,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Ofu"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Ogori/Magongo"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Okehi"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Okene"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Olamaboro"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Omala"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Yagba-East"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "states.lga",
+        "fields": {
+            "state": 23,
+            "name": "Yagba-West"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Aguata"
+        }
+    },
+    {
+        "pk": 64,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Anambra-East"
+        }
+    },
+    {
+        "pk": 65,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Anambra-West"
+        }
+    },
+    {
+        "pk": 66,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Anaocha"
+        }
+    },
+    {
+        "pk": 67,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Awka-North"
+        }
+    },
+    {
+        "pk": 68,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Awka-South"
+        }
+    },
+    {
+        "pk": 69,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Ayamelum"
+        }
+    },
+    {
+        "pk": 70,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Dunukofia"
+        }
+    },
+    {
+        "pk": 71,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Ekwusigo"
+        }
+    },
+    {
+        "pk": 72,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Idemili-North"
+        }
+    },
+    {
+        "pk": 73,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Idemili-South"
+        }
+    },
+    {
+        "pk": 74,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Ihiala"
+        }
+    },
+    {
+        "pk": 75,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Njikoka"
+        }
+    },
+    {
+        "pk": 76,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Nnewi-North"
+        }
+    },
+    {
+        "pk": 77,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Nnewi-South"
+        }
+    },
+    {
+        "pk": 78,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Ogbaru"
+        }
+    },
+    {
+        "pk": 79,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Onitsha-North"
+        }
+    },
+    {
+        "pk": 80,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Onitsha-south"
+        }
+    },
+    {
+        "pk": 81,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Orumba-North"
+        }
+    },
+    {
+        "pk": 82,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Orumba-South"
+        }
+    },
+    {
+        "pk": 83,
+        "model": "states.lga",
+        "fields": {
+            "state": 4,
+            "name": "Oyi"
+        }
+    },
+    {
+        "pk": 84,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Aboh-Mbaise"
+        }
+    },
+    {
+        "pk": 85,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Ahiazu"
+        }
+    },
+    {
+        "pk": 86,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Ehime-Mbano"
+        }
+    },
+    {
+        "pk": 87,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Ezinihitte"
+        }
+    },
+    {
+        "pk": 88,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Ideato-North"
+        }
+    },
+    {
+        "pk": 89,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Ideato-South"
+        }
+    },
+    {
+        "pk": 90,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Ihitte/Uboma"
+        }
+    },
+    {
+        "pk": 91,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Ikeduru"
+        }
+    },
+    {
+        "pk": 92,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Isiala-Mbano"
+        }
+    },
+    {
+        "pk": 93,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Isu"
+        }
+    },
+    {
+        "pk": 94,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Mbatoli"
+        }
+    },
+    {
+        "pk": 95,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Ngor-Okpala"
+        }
+    },
+    {
+        "pk": 96,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Njaba"
+        }
+    },
+    {
+        "pk": 97,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Nkwerre"
+        }
+    },
+    {
+        "pk": 98,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Nwangele"
+        }
+    },
+    {
+        "pk": 99,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Obowo"
+        }
+    },
+    {
+        "pk": 100,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Oguta"
+        }
+    },
+    {
+        "pk": 101,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Ohaji/Egbema"
+        }
+    },
+    {
+        "pk": 102,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Okigwe"
+        }
+    },
+    {
+        "pk": 103,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Orlu"
+        }
+    },
+    {
+        "pk": 104,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Orsu"
+        }
+    },
+    {
+        "pk": 105,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Oru-East"
+        }
+    },
+    {
+        "pk": 106,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Oru-West"
+        }
+    },
+    {
+        "pk": 107,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Owerri-Municipal"
+        }
+    },
+    {
+        "pk": 108,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Owerri-North"
+        }
+    },
+    {
+        "pk": 109,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Owerri-west"
+        }
+    },
+    {
+        "pk": 110,
+        "model": "states.lga",
+        "fields": {
+            "state": 17,
+            "name": "Unuimo"
+        }
+    },
+    {
+        "pk": 111,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Afijio"
+        }
+    },
+    {
+        "pk": 112,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Akinyele"
+        }
+    },
+    {
+        "pk": 113,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Atiba"
+        }
+    },
+    {
+        "pk": 114,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Atigbo"
+        }
+    },
+    {
+        "pk": 115,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Egbeda"
+        }
+    },
+    {
+        "pk": 116,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ibadan-North"
+        }
+    },
+    {
+        "pk": 117,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ibadan-North-East"
+        }
+    },
+    {
+        "pk": 118,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ibadan-North-West"
+        }
+    },
+    {
+        "pk": 119,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ibadan-South-East"
+        }
+    },
+    {
+        "pk": 120,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ibadan-South-West"
+        }
+    },
+    {
+        "pk": 121,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ibarapa-Central"
+        }
+    },
+    {
+        "pk": 122,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ibarapa-East"
+        }
+    },
+    {
+        "pk": 123,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ibarapa-North"
+        }
+    },
+    {
+        "pk": 124,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ido"
+        }
+    },
+    {
+        "pk": 125,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Irepo"
+        }
+    },
+    {
+        "pk": 126,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Iseyin"
+        }
+    },
+    {
+        "pk": 127,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Itesiwaju"
+        }
+    },
+    {
+        "pk": 128,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Iwajowa"
+        }
+    },
+    {
+        "pk": 129,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Kajola"
+        }
+    },
+    {
+        "pk": 130,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Lagelu"
+        }
+    },
+    {
+        "pk": 131,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ogbomosho-North"
+        }
+    },
+    {
+        "pk": 132,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ogbomosho-South"
+        }
+    },
+    {
+        "pk": 133,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ogo-Oluwa"
+        }
+    },
+    {
+        "pk": 134,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Olorunsogo"
+        }
+    },
+    {
+        "pk": 135,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Oluyole"
+        }
+    },
+    {
+        "pk": 136,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ona-ara"
+        }
+    },
+    {
+        "pk": 137,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Orelope"
+        }
+    },
+    {
+        "pk": 138,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Ori-Ire"
+        }
+    },
+    {
+        "pk": 139,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Oyo"
+        }
+    },
+    {
+        "pk": 140,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Oyo-East"
+        }
+    },
+    {
+        "pk": 141,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Saki-East"
+        }
+    },
+    {
+        "pk": 142,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Saki-west"
+        }
+    },
+    {
+        "pk": 143,
+        "model": "states.lga",
+        "fields": {
+            "state": 31,
+            "name": "Surulere"
+        }
+    },
+    {
+        "pk": 144,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Barkin-Ladi"
+        }
+    },
+    {
+        "pk": 145,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Bassa"
+        }
+    },
+    {
+        "pk": 146,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Bokkos"
+        }
+    },
+    {
+        "pk": 147,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Jos-East"
+        }
+    },
+    {
+        "pk": 148,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Jos-North"
+        }
+    },
+    {
+        "pk": 149,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Jos-South"
+        }
+    },
+    {
+        "pk": 150,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Kanam"
+        }
+    },
+    {
+        "pk": 151,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Kanke"
+        }
+    },
+    {
+        "pk": 152,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Langtan-North"
+        }
+    },
+    {
+        "pk": 153,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Langtang-South"
+        }
+    },
+    {
+        "pk": 154,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Mangu"
+        }
+    },
+    {
+        "pk": 155,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Mikang"
+        }
+    },
+    {
+        "pk": 156,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Panshkin"
+        }
+    },
+    {
+        "pk": 157,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Qua'an-Pan"
+        }
+    },
+    {
+        "pk": 158,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Riyom"
+        }
+    },
+    {
+        "pk": 159,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Shendam"
+        }
+    },
+    {
+        "pk": 160,
+        "model": "states.lga",
+        "fields": {
+            "state": 32,
+            "name": "Wase"
+        }
+    },
+    {
+        "pk": 161,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Abak"
+        }
+    },
+    {
+        "pk": 162,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Eastern-Obolo"
+        }
+    },
+    {
+        "pk": 163,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Eket"
+        }
+    },
+    {
+        "pk": 164,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Esit-Eket"
+        }
+    },
+    {
+        "pk": 165,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Essien Udim"
+        }
+    },
+    {
+        "pk": 166,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Etim-Ekpo"
+        }
+    },
+    {
+        "pk": 167,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Etinan"
+        }
+    },
+    {
+        "pk": 168,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Ibeno"
+        }
+    },
+    {
+        "pk": 169,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Ibesikpo-Asutan"
+        }
+    },
+    {
+        "pk": 170,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Ibiono-Ibom"
+        }
+    },
+    {
+        "pk": 171,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Ika"
+        }
+    },
+    {
+        "pk": 172,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Ikono"
+        }
+    },
+    {
+        "pk": 173,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Ikot-Abasi"
+        }
+    },
+    {
+        "pk": 174,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Ikot-Ekpene"
+        }
+    },
+    {
+        "pk": 175,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Ini"
+        }
+    },
+    {
+        "pk": 176,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Itu"
+        }
+    },
+    {
+        "pk": 177,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Mbo"
+        }
+    },
+    {
+        "pk": 178,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Mpkat-Enin"
+        }
+    },
+    {
+        "pk": 179,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Nsit-Atai"
+        }
+    },
+    {
+        "pk": 180,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Nsit-Ibom"
+        }
+    },
+    {
+        "pk": 181,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Nsit-Ubuim"
+        }
+    },
+    {
+        "pk": 182,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Obot-Akara"
+        }
+    },
+    {
+        "pk": 183,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Okobo"
+        }
+    },
+    {
+        "pk": 184,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Onna"
+        }
+    },
+    {
+        "pk": 185,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Oron"
+        }
+    },
+    {
+        "pk": 186,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Oruk Anam"
+        }
+    },
+    {
+        "pk": 187,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Udung-Uko"
+        }
+    },
+    {
+        "pk": 188,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Ukanafun"
+        }
+    },
+    {
+        "pk": 189,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Uruan"
+        }
+    },
+    {
+        "pk": 190,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Urue-Offong/Oruko"
+        }
+    },
+    {
+        "pk": 191,
+        "model": "states.lga",
+        "fields": {
+            "state": 3,
+            "name": "Uyo"
+        }
+    },
+    {
+        "pk": 192,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Abi"
+        }
+    },
+    {
+        "pk": 193,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Akamkpa"
+        }
+    },
+    {
+        "pk": 194,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Akpabuyo"
+        }
+    },
+    {
+        "pk": 195,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Bakassi"
+        }
+    },
+    {
+        "pk": 196,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Bekwarra"
+        }
+    },
+    {
+        "pk": 197,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Biase"
+        }
+    },
+    {
+        "pk": 198,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Boki"
+        }
+    },
+    {
+        "pk": 199,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Calabar-Municipal"
+        }
+    },
+    {
+        "pk": 200,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Calabar-South"
+        }
+    },
+    {
+        "pk": 201,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Etung"
+        }
+    },
+    {
+        "pk": 202,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Ikom"
+        }
+    },
+    {
+        "pk": 203,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Obanliku"
+        }
+    },
+    {
+        "pk": 204,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Obubra"
+        }
+    },
+    {
+        "pk": 205,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Obudu"
+        }
+    },
+    {
+        "pk": 206,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Odukpani"
+        }
+    },
+    {
+        "pk": 207,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Ogoja"
+        }
+    },
+    {
+        "pk": 208,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Yakurr"
+        }
+    },
+    {
+        "pk": 209,
+        "model": "states.lga",
+        "fields": {
+            "state": 9,
+            "name": "Yala"
+        }
+    },
+    {
+        "pk": 210,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Bakori"
+        }
+    },
+    {
+        "pk": 211,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Batagarawa"
+        }
+    },
+    {
+        "pk": 212,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Batsari"
+        }
+    },
+    {
+        "pk": 213,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Baure"
+        }
+    },
+    {
+        "pk": 214,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Bindawa"
+        }
+    },
+    {
+        "pk": 215,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Charanchi"
+        }
+    },
+    {
+        "pk": 216,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Dan-Musa"
+        }
+    },
+    {
+        "pk": 217,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Dandume"
+        }
+    },
+    {
+        "pk": 218,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Danja"
+        }
+    },
+    {
+        "pk": 219,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Daura"
+        }
+    },
+    {
+        "pk": 220,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Dutsi"
+        }
+    },
+    {
+        "pk": 221,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Dutsin-Ma"
+        }
+    },
+    {
+        "pk": 222,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Faskari"
+        }
+    },
+    {
+        "pk": 223,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Funtua"
+        }
+    },
+    {
+        "pk": 224,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Ingawa"
+        }
+    },
+    {
+        "pk": 225,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Jibia"
+        }
+    },
+    {
+        "pk": 226,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Kafur"
+        }
+    },
+    {
+        "pk": 227,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Kankara"
+        }
+    },
+    {
+        "pk": 228,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Kankia"
+        }
+    },
+    {
+        "pk": 229,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Katsina"
+        }
+    },
+    {
+        "pk": 230,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Kurfi"
+        }
+    },
+    {
+        "pk": 231,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Kusada"
+        }
+    },
+    {
+        "pk": 232,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Mai'Adua"
+        }
+    },
+    {
+        "pk": 233,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Malumfashi"
+        }
+    },
+    {
+        "pk": 234,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Mani"
+        }
+    },
+    {
+        "pk": 235,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Mashi"
+        }
+    },
+    {
+        "pk": 236,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Matazu"
+        }
+    },
+    {
+        "pk": 237,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Musawa"
+        }
+    },
+    {
+        "pk": 238,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Rimi"
+        }
+    },
+    {
+        "pk": 239,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Sabuwa"
+        }
+    },
+    {
+        "pk": 240,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Safana"
+        }
+    },
+    {
+        "pk": 241,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Sandamu"
+        }
+    },
+    {
+        "pk": 242,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "Zango"
+        }
+    },
+    {
+        "pk": 243,
+        "model": "states.lga",
+        "fields": {
+            "state": 21,
+            "name": "kaita"
+        }
+    },
+    {
+        "pk": 244,
+        "model": "states.lga",
+        "fields": {
+            "state": 16,
+            "name": "Akko"
+        }
+    },
+    {
+        "pk": 245,
+        "model": "states.lga",
+        "fields": {
+            "state": 16,
+            "name": "Balanga"
+        }
+    },
+    {
+        "pk": 246,
+        "model": "states.lga",
+        "fields": {
+            "state": 16,
+            "name": "Billiri"
+        }
+    },
+    {
+        "pk": 247,
+        "model": "states.lga",
+        "fields": {
+            "state": 16,
+            "name": "Dukku"
+        }
+    },
+    {
+        "pk": 248,
+        "model": "states.lga",
+        "fields": {
+            "state": 16,
+            "name": "Funakaye"
+        }
+    },
+    {
+        "pk": 249,
+        "model": "states.lga",
+        "fields": {
+            "state": 16,
+            "name": "Gombe"
+        }
+    },
+    {
+        "pk": 250,
+        "model": "states.lga",
+        "fields": {
+            "state": 16,
+            "name": "Kaltungo"
+        }
+    },
+    {
+        "pk": 251,
+        "model": "states.lga",
+        "fields": {
+            "state": 16,
+            "name": "Kwani"
+        }
+    },
+    {
+        "pk": 252,
+        "model": "states.lga",
+        "fields": {
+            "state": 16,
+            "name": "Nafada"
+        }
+    },
+    {
+        "pk": 253,
+        "model": "states.lga",
+        "fields": {
+            "state": 16,
+            "name": "Shomgom"
+        }
+    },
+    {
+        "pk": 254,
+        "model": "states.lga",
+        "fields": {
+            "state": 16,
+            "name": "Yamaltu/Deba"
+        }
+    },
+    {
+        "pk": 255,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Demsa"
+        }
+    },
+    {
+        "pk": 256,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Fufure"
+        }
+    },
+    {
+        "pk": 257,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Ganye"
+        }
+    },
+    {
+        "pk": 258,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Gayuk"
+        }
+    },
+    {
+        "pk": 259,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Gombi"
+        }
+    },
+    {
+        "pk": 260,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Grie"
+        }
+    },
+    {
+        "pk": 261,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Hong"
+        }
+    },
+    {
+        "pk": 262,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Jada"
+        }
+    },
+    {
+        "pk": 263,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Larmurde"
+        }
+    },
+    {
+        "pk": 264,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Madgali"
+        }
+    },
+    {
+        "pk": 265,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Maiha"
+        }
+    },
+    {
+        "pk": 266,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Mayo-Belwa"
+        }
+    },
+    {
+        "pk": 267,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Michika"
+        }
+    },
+    {
+        "pk": 268,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Mobi-North"
+        }
+    },
+    {
+        "pk": 269,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Mobi-South"
+        }
+    },
+    {
+        "pk": 270,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Numan"
+        }
+    },
+    {
+        "pk": 271,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Shelleng"
+        }
+    },
+    {
+        "pk": 272,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Song"
+        }
+    },
+    {
+        "pk": 273,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Teungo"
+        }
+    },
+    {
+        "pk": 274,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Yola-North"
+        }
+    },
+    {
+        "pk": 275,
+        "model": "states.lga",
+        "fields": {
+            "state": 2,
+            "name": "Yola-South"
+        }
+    },
+    {
+        "pk": 276,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Anka"
+        }
+    },
+    {
+        "pk": 277,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Bakura"
+        }
+    },
+    {
+        "pk": 278,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Birnin-Magaji/Kiyaw"
+        }
+    },
+    {
+        "pk": 279,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Bukkuyum"
+        }
+    },
+    {
+        "pk": 280,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Bungudu"
+        }
+    },
+    {
+        "pk": 281,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Gummi"
+        }
+    },
+    {
+        "pk": 282,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Gusau"
+        }
+    },
+    {
+        "pk": 283,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Kaura-Namoda"
+        }
+    },
+    {
+        "pk": 284,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Maradun"
+        }
+    },
+    {
+        "pk": 285,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Maru"
+        }
+    },
+    {
+        "pk": 286,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Shinkafi"
+        }
+    },
+    {
+        "pk": 287,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Talata-Mafara"
+        }
+    },
+    {
+        "pk": 288,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Tsafe"
+        }
+    },
+    {
+        "pk": 289,
+        "model": "states.lga",
+        "fields": {
+            "state": 37,
+            "name": "Zurmi"
+        }
+    },
+    {
+        "pk": 290,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Abeokuta-north"
+        }
+    },
+    {
+        "pk": 291,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Abeokuta-south"
+        }
+    },
+    {
+        "pk": 292,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Ado-Odo/Ota"
+        }
+    },
+    {
+        "pk": 293,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Egbado-North"
+        }
+    },
+    {
+        "pk": 294,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Egbado-South"
+        }
+    },
+    {
+        "pk": 295,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Ewekoro"
+        }
+    },
+    {
+        "pk": 296,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Ifo"
+        }
+    },
+    {
+        "pk": 297,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Ijebu-East"
+        }
+    },
+    {
+        "pk": 298,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Ijebu-North"
+        }
+    },
+    {
+        "pk": 299,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Ijebu-North-East"
+        }
+    },
+    {
+        "pk": 300,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Ijebu-ode"
+        }
+    },
+    {
+        "pk": 301,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Ikenne"
+        }
+    },
+    {
+        "pk": 302,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Imeko-Afon"
+        }
+    },
+    {
+        "pk": 303,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Ipokia"
+        }
+    },
+    {
+        "pk": 304,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Obafemi-Owode"
+        }
+    },
+    {
+        "pk": 305,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Odeda"
+        }
+    },
+    {
+        "pk": 306,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Odogbolu"
+        }
+    },
+    {
+        "pk": 307,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Ogun-waterfront"
+        }
+    },
+    {
+        "pk": 308,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Remo-North"
+        }
+    },
+    {
+        "pk": 309,
+        "model": "states.lga",
+        "fields": {
+            "state": 28,
+            "name": "Shagamu"
+        }
+    },
+    {
+        "pk": 310,
+        "model": "states.lga",
+        "fields": {
+            "state": 15,
+            "name": "Abaji"
+        }
+    },
+    {
+        "pk": 311,
+        "model": "states.lga",
+        "fields": {
+            "state": 15,
+            "name": "Bwari"
+        }
+    },
+    {
+        "pk": 312,
+        "model": "states.lga",
+        "fields": {
+            "state": 15,
+            "name": "Gwagwalada"
+        }
+    },
+    {
+        "pk": 313,
+        "model": "states.lga",
+        "fields": {
+            "state": 15,
+            "name": "Kuje"
+        }
+    },
+    {
+        "pk": 314,
+        "model": "states.lga",
+        "fields": {
+            "state": 15,
+            "name": "Kwali"
+        }
+    },
+    {
+        "pk": 315,
+        "model": "states.lga",
+        "fields": {
+            "state": 15,
+            "name": "Municipal-Area-Council"
+        }
+    },
+    {
+        "pk": 316,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Binji"
+        }
+    },
+    {
+        "pk": 317,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Bodinga"
+        }
+    },
+    {
+        "pk": 318,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Dange-shuni"
+        }
+    },
+    {
+        "pk": 319,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Gada"
+        }
+    },
+    {
+        "pk": 320,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Goronyo"
+        }
+    },
+    {
+        "pk": 321,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Gudu"
+        }
+    },
+    {
+        "pk": 322,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Gwadabawa"
+        }
+    },
+    {
+        "pk": 323,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Illela"
+        }
+    },
+    {
+        "pk": 324,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Isa"
+        }
+    },
+    {
+        "pk": 325,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Kebbe"
+        }
+    },
+    {
+        "pk": 326,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Kware"
+        }
+    },
+    {
+        "pk": 327,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Rabah"
+        }
+    },
+    {
+        "pk": 328,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Sabon-Birni"
+        }
+    },
+    {
+        "pk": 329,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Shagari"
+        }
+    },
+    {
+        "pk": 330,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Silame"
+        }
+    },
+    {
+        "pk": 331,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Sokoto-North"
+        }
+    },
+    {
+        "pk": 332,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Sokoto-South"
+        }
+    },
+    {
+        "pk": 333,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Tambuwal"
+        }
+    },
+    {
+        "pk": 334,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Tangaza"
+        }
+    },
+    {
+        "pk": 335,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Tureta"
+        }
+    },
+    {
+        "pk": 336,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Wamako"
+        }
+    },
+    {
+        "pk": 337,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Wurno"
+        }
+    },
+    {
+        "pk": 338,
+        "model": "states.lga",
+        "fields": {
+            "state": 34,
+            "name": "Yabo"
+        }
+    },
+    {
+        "pk": 339,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Aniocha-North"
+        }
+    },
+    {
+        "pk": 340,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Aniocha-South"
+        }
+    },
+    {
+        "pk": 341,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Bomadi"
+        }
+    },
+    {
+        "pk": 342,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Burutu"
+        }
+    },
+    {
+        "pk": 343,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Ethiope-East"
+        }
+    },
+    {
+        "pk": 344,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Ethiope-West"
+        }
+    },
+    {
+        "pk": 345,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Ika-North"
+        }
+    },
+    {
+        "pk": 346,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Ika-South"
+        }
+    },
+    {
+        "pk": 347,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Isoko-South"
+        }
+    },
+    {
+        "pk": 348,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Isoko-north"
+        }
+    },
+    {
+        "pk": 349,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Ndokwa-East"
+        }
+    },
+    {
+        "pk": 350,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Ndokwa-West"
+        }
+    },
+    {
+        "pk": 351,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Okpe"
+        }
+    },
+    {
+        "pk": 352,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Oshimili-North"
+        }
+    },
+    {
+        "pk": 353,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Oshimili-South"
+        }
+    },
+    {
+        "pk": 354,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Patani"
+        }
+    },
+    {
+        "pk": 355,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Sapele"
+        }
+    },
+    {
+        "pk": 356,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Udu"
+        }
+    },
+    {
+        "pk": 357,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Ughelli-North"
+        }
+    },
+    {
+        "pk": 358,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Ughelli-South"
+        }
+    },
+    {
+        "pk": 359,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Ukwuani"
+        }
+    },
+    {
+        "pk": 360,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Uvwie"
+        }
+    },
+    {
+        "pk": 361,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Warri-North"
+        }
+    },
+    {
+        "pk": 362,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Warri-South"
+        }
+    },
+    {
+        "pk": 363,
+        "model": "states.lga",
+        "fields": {
+            "state": 10,
+            "name": "Warri-South-West"
+        }
+    },
+    {
+        "pk": 364,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Asa"
+        }
+    },
+    {
+        "pk": 365,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Baruten"
+        }
+    },
+    {
+        "pk": 366,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Edu"
+        }
+    },
+    {
+        "pk": 367,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Ekiti"
+        }
+    },
+    {
+        "pk": 368,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Ifelodun"
+        }
+    },
+    {
+        "pk": 369,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Ilorin-East"
+        }
+    },
+    {
+        "pk": 370,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Ilorin-South"
+        }
+    },
+    {
+        "pk": 371,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Ilorin-west"
+        }
+    },
+    {
+        "pk": 372,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Irepodun"
+        }
+    },
+    {
+        "pk": 373,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Isin"
+        }
+    },
+    {
+        "pk": 374,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Kaiama"
+        }
+    },
+    {
+        "pk": 375,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Moro"
+        }
+    },
+    {
+        "pk": 376,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Offa"
+        }
+    },
+    {
+        "pk": 377,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Oke-oro"
+        }
+    },
+    {
+        "pk": 378,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Oyun"
+        }
+    },
+    {
+        "pk": 379,
+        "model": "states.lga",
+        "fields": {
+            "state": 24,
+            "name": "Pategi"
+        }
+    },
+    {
+        "pk": 380,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Ado"
+        }
+    },
+    {
+        "pk": 381,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Agatu"
+        }
+    },
+    {
+        "pk": 382,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Apa"
+        }
+    },
+    {
+        "pk": 383,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Buruku"
+        }
+    },
+    {
+        "pk": 384,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Gboko"
+        }
+    },
+    {
+        "pk": 385,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Guma"
+        }
+    },
+    {
+        "pk": 386,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Gwer-East"
+        }
+    },
+    {
+        "pk": 387,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Gwer-West"
+        }
+    },
+    {
+        "pk": 388,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Katsina-Ala"
+        }
+    },
+    {
+        "pk": 389,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Konshisha"
+        }
+    },
+    {
+        "pk": 390,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Kwande"
+        }
+    },
+    {
+        "pk": 391,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Logo"
+        }
+    },
+    {
+        "pk": 392,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Makurdi"
+        }
+    },
+    {
+        "pk": 393,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Obi"
+        }
+    },
+    {
+        "pk": 394,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Ogbadibo"
+        }
+    },
+    {
+        "pk": 395,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Ohimini"
+        }
+    },
+    {
+        "pk": 396,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Oju"
+        }
+    },
+    {
+        "pk": 397,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Okpokwu"
+        }
+    },
+    {
+        "pk": 398,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Oturkpo"
+        }
+    },
+    {
+        "pk": 399,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Tarka"
+        }
+    },
+    {
+        "pk": 400,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Ukum"
+        }
+    },
+    {
+        "pk": 401,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Ushongo"
+        }
+    },
+    {
+        "pk": 402,
+        "model": "states.lga",
+        "fields": {
+            "state": 7,
+            "name": "Vandeikya"
+        }
+    },
+    {
+        "pk": 403,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Auyo"
+        }
+    },
+    {
+        "pk": 404,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Babura"
+        }
+    },
+    {
+        "pk": 405,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Biriniwa"
+        }
+    },
+    {
+        "pk": 406,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Birnin-Kudu"
+        }
+    },
+    {
+        "pk": 407,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Buji"
+        }
+    },
+    {
+        "pk": 408,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Dutse"
+        }
+    },
+    {
+        "pk": 409,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Gagarawa"
+        }
+    },
+    {
+        "pk": 410,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Garki"
+        }
+    },
+    {
+        "pk": 411,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Gumel"
+        }
+    },
+    {
+        "pk": 412,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Guri"
+        }
+    },
+    {
+        "pk": 413,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Gwaram"
+        }
+    },
+    {
+        "pk": 414,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Gwiwa"
+        }
+    },
+    {
+        "pk": 415,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Hadejia"
+        }
+    },
+    {
+        "pk": 416,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Jahun"
+        }
+    },
+    {
+        "pk": 417,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Kafin-Hausa"
+        }
+    },
+    {
+        "pk": 418,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Kazuare"
+        }
+    },
+    {
+        "pk": 419,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Kiri-Kasama"
+        }
+    },
+    {
+        "pk": 420,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Kuagama"
+        }
+    },
+    {
+        "pk": 421,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Maigatari"
+        }
+    },
+    {
+        "pk": 422,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Malam-Maduri"
+        }
+    },
+    {
+        "pk": 423,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Miga"
+        }
+    },
+    {
+        "pk": 424,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Ringim"
+        }
+    },
+    {
+        "pk": 425,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Roni"
+        }
+    },
+    {
+        "pk": 426,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Sule-Tankakar"
+        }
+    },
+    {
+        "pk": 427,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Taura"
+        }
+    },
+    {
+        "pk": 428,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "Yankwashi"
+        }
+    },
+    {
+        "pk": 429,
+        "model": "states.lga",
+        "fields": {
+            "state": 18,
+            "name": "kiyawa"
+        }
+    },
+    {
+        "pk": 430,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Barde"
+        }
+    },
+    {
+        "pk": 431,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Bosari"
+        }
+    },
+    {
+        "pk": 432,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Damaturu"
+        }
+    },
+    {
+        "pk": 433,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Fika"
+        }
+    },
+    {
+        "pk": 434,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Fune"
+        }
+    },
+    {
+        "pk": 435,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Geidam"
+        }
+    },
+    {
+        "pk": 436,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Gujba"
+        }
+    },
+    {
+        "pk": 437,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Gulani"
+        }
+    },
+    {
+        "pk": 438,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Jakusko"
+        }
+    },
+    {
+        "pk": 439,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Karasuwa"
+        }
+    },
+    {
+        "pk": 440,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Machina"
+        }
+    },
+    {
+        "pk": 441,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Nangere"
+        }
+    },
+    {
+        "pk": 442,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Nguru"
+        }
+    },
+    {
+        "pk": 443,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Potiskum"
+        }
+    },
+    {
+        "pk": 444,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Tarmua"
+        }
+    },
+    {
+        "pk": 445,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Yunusari"
+        }
+    },
+    {
+        "pk": 446,
+        "model": "states.lga",
+        "fields": {
+            "state": 36,
+            "name": "Yusufari"
+        }
+    },
+    {
+        "pk": 447,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Ardo-Kola"
+        }
+    },
+    {
+        "pk": 448,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Bali"
+        }
+    },
+    {
+        "pk": 449,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Donga"
+        }
+    },
+    {
+        "pk": 450,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Gashaka"
+        }
+    },
+    {
+        "pk": 451,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Gassol"
+        }
+    },
+    {
+        "pk": 452,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Ibi"
+        }
+    },
+    {
+        "pk": 453,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Jalingo"
+        }
+    },
+    {
+        "pk": 454,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Karim-Lamido"
+        }
+    },
+    {
+        "pk": 455,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Kumi"
+        }
+    },
+    {
+        "pk": 456,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Lau"
+        }
+    },
+    {
+        "pk": 457,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Sardauna"
+        }
+    },
+    {
+        "pk": 458,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Takum"
+        }
+    },
+    {
+        "pk": 459,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Ussa"
+        }
+    },
+    {
+        "pk": 460,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Wukari"
+        }
+    },
+    {
+        "pk": 461,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Yorro"
+        }
+    },
+    {
+        "pk": 462,
+        "model": "states.lga",
+        "fields": {
+            "state": 35,
+            "name": "Zing"
+        }
+    },
+    {
+        "pk": 463,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Aleiro"
+        }
+    },
+    {
+        "pk": 464,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Arewa-Dandi"
+        }
+    },
+    {
+        "pk": 465,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Argungu"
+        }
+    },
+    {
+        "pk": 466,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Augie"
+        }
+    },
+    {
+        "pk": 467,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Bagudo"
+        }
+    },
+    {
+        "pk": 468,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Birnin-Kebbi"
+        }
+    },
+    {
+        "pk": 469,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Bunza"
+        }
+    },
+    {
+        "pk": 470,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Dandi"
+        }
+    },
+    {
+        "pk": 471,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Fakai"
+        }
+    },
+    {
+        "pk": 472,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Gwandu"
+        }
+    },
+    {
+        "pk": 473,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Jega"
+        }
+    },
+    {
+        "pk": 474,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Kalgo"
+        }
+    },
+    {
+        "pk": 475,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Koko/Besse"
+        }
+    },
+    {
+        "pk": 476,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Maiyama"
+        }
+    },
+    {
+        "pk": 477,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Ngaski"
+        }
+    },
+    {
+        "pk": 478,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Sakaba"
+        }
+    },
+    {
+        "pk": 479,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Shanga"
+        }
+    },
+    {
+        "pk": 480,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Suru"
+        }
+    },
+    {
+        "pk": 481,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Wasagu/Danko"
+        }
+    },
+    {
+        "pk": 482,
+        "model": "states.lga",
+        "fields": {
+            "state": 22,
+            "name": "Yauri"
+        }
+    },
+    {
+        "pk": 483,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Akwanga"
+        }
+    },
+    {
+        "pk": 484,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Awe"
+        }
+    },
+    {
+        "pk": 485,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Doma"
+        }
+    },
+    {
+        "pk": 486,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Karu"
+        }
+    },
+    {
+        "pk": 487,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Keana"
+        }
+    },
+    {
+        "pk": 488,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Keffi"
+        }
+    },
+    {
+        "pk": 489,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Kokona"
+        }
+    },
+    {
+        "pk": 490,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Lafia"
+        }
+    },
+    {
+        "pk": 491,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Nasarawa"
+        }
+    },
+    {
+        "pk": 492,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Nasarawa-Egon"
+        }
+    },
+    {
+        "pk": 493,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Obi"
+        }
+    },
+    {
+        "pk": 494,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Toto"
+        }
+    },
+    {
+        "pk": 495,
+        "model": "states.lga",
+        "fields": {
+            "state": 26,
+            "name": "Wamba"
+        }
+    },
+    {
+        "pk": 496,
+        "model": "states.lga",
+        "fields": {
+            "state": 6,
+            "name": "Brass"
+        }
+    },
+    {
+        "pk": 497,
+        "model": "states.lga",
+        "fields": {
+            "state": 6,
+            "name": "Ekeremor"
+        }
+    },
+    {
+        "pk": 498,
+        "model": "states.lga",
+        "fields": {
+            "state": 6,
+            "name": "Kolokuma/Opokuma"
+        }
+    },
+    {
+        "pk": 499,
+        "model": "states.lga",
+        "fields": {
+            "state": 6,
+            "name": "Nembe"
+        }
+    },
+    {
+        "pk": 500,
+        "model": "states.lga",
+        "fields": {
+            "state": 6,
+            "name": "Ogbia"
+        }
+    },
+    {
+        "pk": 501,
+        "model": "states.lga",
+        "fields": {
+            "state": 6,
+            "name": "Sagbama"
+        }
+    },
+    {
+        "pk": 502,
+        "model": "states.lga",
+        "fields": {
+            "state": 6,
+            "name": "Southern-Ijaw"
+        }
+    },
+    {
+        "pk": 503,
+        "model": "states.lga",
+        "fields": {
+            "state": 6,
+            "name": "Yenagoa"
+        }
+    },
+    {
+        "pk": 504,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Ado-Ekiti"
+        }
+    },
+    {
+        "pk": 505,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Efon"
+        }
+    },
+    {
+        "pk": 506,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Ekiti-East"
+        }
+    },
+    {
+        "pk": 507,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Ekiti-South-West"
+        }
+    },
+    {
+        "pk": 508,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Ekiti-West"
+        }
+    },
+    {
+        "pk": 509,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Emure"
+        }
+    },
+    {
+        "pk": 510,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Gbonyin"
+        }
+    },
+    {
+        "pk": 511,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Ido-Osi"
+        }
+    },
+    {
+        "pk": 512,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Ijero"
+        }
+    },
+    {
+        "pk": 513,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Ikere"
+        }
+    },
+    {
+        "pk": 514,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Ikole"
+        }
+    },
+    {
+        "pk": 515,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Ilejemeje"
+        }
+    },
+    {
+        "pk": 516,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Irepodun/Ifelodun"
+        }
+    },
+    {
+        "pk": 517,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Ise/Orun"
+        }
+    },
+    {
+        "pk": 518,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Moba"
+        }
+    },
+    {
+        "pk": 519,
+        "model": "states.lga",
+        "fields": {
+            "state": 13,
+            "name": "Oye"
+        }
+    },
+    {
+        "pk": 520,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Abakaliki"
+        }
+    },
+    {
+        "pk": 521,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Afikpo-North"
+        }
+    },
+    {
+        "pk": 522,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Afikpo-South"
+        }
+    },
+    {
+        "pk": 523,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Ebonyi"
+        }
+    },
+    {
+        "pk": 524,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Ezza-North"
+        }
+    },
+    {
+        "pk": 525,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Ezza-South"
+        }
+    },
+    {
+        "pk": 526,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Ikwo"
+        }
+    },
+    {
+        "pk": 527,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Ishielu"
+        }
+    },
+    {
+        "pk": 528,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Ivo"
+        }
+    },
+    {
+        "pk": 529,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Izzi"
+        }
+    },
+    {
+        "pk": 530,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Ohaozara"
+        }
+    },
+    {
+        "pk": 531,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Ohaukwu"
+        }
+    },
+    {
+        "pk": 532,
+        "model": "states.lga",
+        "fields": {
+            "state": 11,
+            "name": "Onicha"
+        }
+    },
+    {
+        "pk": 533,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Aninri"
+        }
+    },
+    {
+        "pk": 534,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Awgu"
+        }
+    },
+    {
+        "pk": 535,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Enugu-East"
+        }
+    },
+    {
+        "pk": 536,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Enugu-North"
+        }
+    },
+    {
+        "pk": 537,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Enugu-South"
+        }
+    },
+    {
+        "pk": 538,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Ezeagu"
+        }
+    },
+    {
+        "pk": 539,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Igbo-Eze-North"
+        }
+    },
+    {
+        "pk": 540,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Igbo-Eze-South"
+        }
+    },
+    {
+        "pk": 541,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Igbo=Etiti"
+        }
+    },
+    {
+        "pk": 542,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Isi-Uzo"
+        }
+    },
+    {
+        "pk": 543,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Nkanu-East"
+        }
+    },
+    {
+        "pk": 544,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Nkanu-West"
+        }
+    },
+    {
+        "pk": 545,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Nsukka"
+        }
+    },
+    {
+        "pk": 546,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Oji-River"
+        }
+    },
+    {
+        "pk": 547,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Udenu"
+        }
+    },
+    {
+        "pk": 548,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Udi"
+        }
+    },
+    {
+        "pk": 549,
+        "model": "states.lga",
+        "fields": {
+            "state": 14,
+            "name": "Uzo-Uwani"
+        }
+    },
+    {
+        "pk": 550,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Ajingi"
+        }
+    },
+    {
+        "pk": 551,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Albasu"
+        }
+    },
+    {
+        "pk": 552,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Bagwai"
+        }
+    },
+    {
+        "pk": 553,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Bebeji"
+        }
+    },
+    {
+        "pk": 554,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Bichi"
+        }
+    },
+    {
+        "pk": 555,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Bunkure"
+        }
+    },
+    {
+        "pk": 556,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Dala"
+        }
+    },
+    {
+        "pk": 557,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Dambatta"
+        }
+    },
+    {
+        "pk": 558,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Dawakin-Kudu"
+        }
+    },
+    {
+        "pk": 559,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Dawakin-Tofa"
+        }
+    },
+    {
+        "pk": 560,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Doguwa"
+        }
+    },
+    {
+        "pk": 561,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Fagge"
+        }
+    },
+    {
+        "pk": 562,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Gabasawa"
+        }
+    },
+    {
+        "pk": 563,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Garko"
+        }
+    },
+    {
+        "pk": 564,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Garum-Mallam"
+        }
+    },
+    {
+        "pk": 565,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Gaya"
+        }
+    },
+    {
+        "pk": 566,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Gazewa"
+        }
+    },
+    {
+        "pk": 567,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Gwale"
+        }
+    },
+    {
+        "pk": 568,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Gwarzo"
+        }
+    },
+    {
+        "pk": 569,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Kabo"
+        }
+    },
+    {
+        "pk": 570,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Kano-Municipal"
+        }
+    },
+    {
+        "pk": 571,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Karaye"
+        }
+    },
+    {
+        "pk": 572,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Kibiya"
+        }
+    },
+    {
+        "pk": 573,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Kiru"
+        }
+    },
+    {
+        "pk": 574,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Kumbotso"
+        }
+    },
+    {
+        "pk": 575,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Kunchi"
+        }
+    },
+    {
+        "pk": 576,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Kura"
+        }
+    },
+    {
+        "pk": 577,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Madobi"
+        }
+    },
+    {
+        "pk": 578,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Makoda"
+        }
+    },
+    {
+        "pk": 579,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Minjibir"
+        }
+    },
+    {
+        "pk": 580,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Nasarawa"
+        }
+    },
+    {
+        "pk": 581,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Rano"
+        }
+    },
+    {
+        "pk": 582,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Rimin-Gado"
+        }
+    },
+    {
+        "pk": 583,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Rogo"
+        }
+    },
+    {
+        "pk": 584,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Shanono"
+        }
+    },
+    {
+        "pk": 585,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Sumaila"
+        }
+    },
+    {
+        "pk": 586,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Takai"
+        }
+    },
+    {
+        "pk": 587,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Tarauni"
+        }
+    },
+    {
+        "pk": 588,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Tofa"
+        }
+    },
+    {
+        "pk": 589,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Tsanyawa"
+        }
+    },
+    {
+        "pk": 590,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Tudun-Wada"
+        }
+    },
+    {
+        "pk": 591,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Ungogo"
+        }
+    },
+    {
+        "pk": 592,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Warawa"
+        }
+    },
+    {
+        "pk": 593,
+        "model": "states.lga",
+        "fields": {
+            "state": 20,
+            "name": "Wudil"
+        }
+    },
+    {
+        "pk": 594,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Atakunmosa-East"
+        }
+    },
+    {
+        "pk": 595,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Atakunmosa-West"
+        }
+    },
+    {
+        "pk": 596,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ayedaade"
+        }
+    },
+    {
+        "pk": 597,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ayedire"
+        }
+    },
+    {
+        "pk": 598,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Boluwaduro"
+        }
+    },
+    {
+        "pk": 599,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Boripe"
+        }
+    },
+    {
+        "pk": 600,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ede-North"
+        }
+    },
+    {
+        "pk": 601,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ede-South"
+        }
+    },
+    {
+        "pk": 602,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Egbedore"
+        }
+    },
+    {
+        "pk": 603,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ejigbo"
+        }
+    },
+    {
+        "pk": 604,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ife-Central"
+        }
+    },
+    {
+        "pk": 605,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ife-East"
+        }
+    },
+    {
+        "pk": 606,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ife-North"
+        }
+    },
+    {
+        "pk": 607,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ife-South"
+        }
+    },
+    {
+        "pk": 608,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ifedayo"
+        }
+    },
+    {
+        "pk": 609,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ifelodun"
+        }
+    },
+    {
+        "pk": 610,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ila"
+        }
+    },
+    {
+        "pk": 611,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ilesha-East"
+        }
+    },
+    {
+        "pk": 612,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ilesha-West"
+        }
+    },
+    {
+        "pk": 613,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Irepodun"
+        }
+    },
+    {
+        "pk": 614,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Irewole"
+        }
+    },
+    {
+        "pk": 615,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Isokan"
+        }
+    },
+    {
+        "pk": 616,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Iwo"
+        }
+    },
+    {
+        "pk": 617,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Obokun"
+        }
+    },
+    {
+        "pk": 618,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Odo-otin"
+        }
+    },
+    {
+        "pk": 619,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Ola-oluwa"
+        }
+    },
+    {
+        "pk": 620,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Olorunda"
+        }
+    },
+    {
+        "pk": 621,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Oriade"
+        }
+    },
+    {
+        "pk": 622,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Orolu"
+        }
+    },
+    {
+        "pk": 623,
+        "model": "states.lga",
+        "fields": {
+            "state": 30,
+            "name": "Osogbo"
+        }
+    },
+    {
+        "pk": 624,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Alkaleri"
+        }
+    },
+    {
+        "pk": 625,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Bauchi"
+        }
+    },
+    {
+        "pk": 626,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Bogoro"
+        }
+    },
+    {
+        "pk": 627,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Damban"
+        }
+    },
+    {
+        "pk": 628,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Darazo"
+        }
+    },
+    {
+        "pk": 629,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Dass"
+        }
+    },
+    {
+        "pk": 630,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Gamawa"
+        }
+    },
+    {
+        "pk": 631,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Ganjuwa"
+        }
+    },
+    {
+        "pk": 632,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Giade"
+        }
+    },
+    {
+        "pk": 633,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Itas/Gadau"
+        }
+    },
+    {
+        "pk": 634,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Jama'are"
+        }
+    },
+    {
+        "pk": 635,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Katagun"
+        }
+    },
+    {
+        "pk": 636,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Kirfi"
+        }
+    },
+    {
+        "pk": 637,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Misau"
+        }
+    },
+    {
+        "pk": 638,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Ningi"
+        }
+    },
+    {
+        "pk": 639,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Shira"
+        }
+    },
+    {
+        "pk": 640,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Tafawa-Balewa"
+        }
+    },
+    {
+        "pk": 641,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Toro"
+        }
+    },
+    {
+        "pk": 642,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Warji"
+        }
+    },
+    {
+        "pk": 643,
+        "model": "states.lga",
+        "fields": {
+            "state": 5,
+            "name": "Zakki"
+        }
+    },
+    {
+        "pk": 644,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Akoko-Edo"
+        }
+    },
+    {
+        "pk": 645,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Egor"
+        }
+    },
+    {
+        "pk": 646,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Esan-Central"
+        }
+    },
+    {
+        "pk": 647,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Esan-North-East"
+        }
+    },
+    {
+        "pk": 648,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Esan-South-East"
+        }
+    },
+    {
+        "pk": 649,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Esan-West"
+        }
+    },
+    {
+        "pk": 650,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Etsako-Central"
+        }
+    },
+    {
+        "pk": 651,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Etsako-East"
+        }
+    },
+    {
+        "pk": 652,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Etsako-West"
+        }
+    },
+    {
+        "pk": 653,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Iguegben"
+        }
+    },
+    {
+        "pk": 654,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Ikpoba-Okha"
+        }
+    },
+    {
+        "pk": 655,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Ohionmwon"
+        }
+    },
+    {
+        "pk": 656,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Oredo"
+        }
+    },
+    {
+        "pk": 657,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Ovia-North-East"
+        }
+    },
+    {
+        "pk": 658,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Ovia-South-West"
+        }
+    },
+    {
+        "pk": 659,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Owan-East"
+        }
+    },
+    {
+        "pk": 660,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Owan-West"
+        }
+    },
+    {
+        "pk": 661,
+        "model": "states.lga",
+        "fields": {
+            "state": 12,
+            "name": "Uhunmwonde"
+        }
+    },
+    {
+        "pk": 662,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Abua-Odual"
+        }
+    },
+    {
+        "pk": 663,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Ahoada-East"
+        }
+    },
+    {
+        "pk": 664,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Ahoada-West"
+        }
+    },
+    {
+        "pk": 665,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Akuku-Toru"
+        }
+    },
+    {
+        "pk": 666,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Andoni"
+        }
+    },
+    {
+        "pk": 667,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Asari-Toru"
+        }
+    },
+    {
+        "pk": 668,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Bonny"
+        }
+    },
+    {
+        "pk": 669,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Degema"
+        }
+    },
+    {
+        "pk": 670,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Eleme"
+        }
+    },
+    {
+        "pk": 671,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Emuoha"
+        }
+    },
+    {
+        "pk": 672,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Etche"
+        }
+    },
+    {
+        "pk": 673,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Gokana"
+        }
+    },
+    {
+        "pk": 674,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Ikwere"
+        }
+    },
+    {
+        "pk": 675,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Khana"
+        }
+    },
+    {
+        "pk": 676,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Obio/Akpor"
+        }
+    },
+    {
+        "pk": 677,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Ogba/Egbema/Ndoni"
+        }
+    },
+    {
+        "pk": 678,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Ogo-Bolo"
+        }
+    },
+    {
+        "pk": 679,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Okrika"
+        }
+    },
+    {
+        "pk": 680,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Omumma"
+        }
+    },
+    {
+        "pk": 681,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Opobo/Nkoro"
+        }
+    },
+    {
+        "pk": 682,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Oyigbo"
+        }
+    },
+    {
+        "pk": 683,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Port-Harcourt"
+        }
+    },
+    {
+        "pk": 684,
+        "model": "states.lga",
+        "fields": {
+            "state": 33,
+            "name": "Tai"
+        }
+    },
+    {
+        "pk": 685,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Agege"
+        }
+    },
+    {
+        "pk": 686,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Ajeromi/Ifelodun"
+        }
+    },
+    {
+        "pk": 687,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Alimosho"
+        }
+    },
+    {
+        "pk": 688,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Amuwo-Odofin"
+        }
+    },
+    {
+        "pk": 689,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Apapa"
+        }
+    },
+    {
+        "pk": 690,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Badagry"
+        }
+    },
+    {
+        "pk": 691,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Epe"
+        }
+    },
+    {
+        "pk": 692,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Eti-osa"
+        }
+    },
+    {
+        "pk": 693,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Ibeju-lekki"
+        }
+    },
+    {
+        "pk": 694,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Ifako/Ijaye"
+        }
+    },
+    {
+        "pk": 695,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Ikeja"
+        }
+    },
+    {
+        "pk": 696,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Ikorodu"
+        }
+    },
+    {
+        "pk": 697,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Kosofe"
+        }
+    },
+    {
+        "pk": 698,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Lagos Island"
+        }
+    },
+    {
+        "pk": 699,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Lagos Mainland"
+        }
+    },
+    {
+        "pk": 700,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Mushin"
+        }
+    },
+    {
+        "pk": 701,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Ojo"
+        }
+    },
+    {
+        "pk": 702,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Oshodi/Isolo"
+        }
+    },
+    {
+        "pk": 703,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Shomolu"
+        }
+    },
+    {
+        "pk": 704,
+        "model": "states.lga",
+        "fields": {
+            "state": 25,
+            "name": "Surulere"
+        }
+    },
+    {
+        "pk": 705,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Abadam"
+        }
+    },
+    {
+        "pk": 706,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Askira/Uba"
+        }
+    },
+    {
+        "pk": 707,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "BAMA"
+        }
+    },
+    {
+        "pk": 708,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Bayo"
+        }
+    },
+    {
+        "pk": 709,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Biu"
+        }
+    },
+    {
+        "pk": 710,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Chibok"
+        }
+    },
+    {
+        "pk": 711,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Damboa"
+        }
+    },
+    {
+        "pk": 712,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Dikwa"
+        }
+    },
+    {
+        "pk": 713,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Gubio"
+        }
+    },
+    {
+        "pk": 714,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Guzamala"
+        }
+    },
+    {
+        "pk": 715,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Gwoza"
+        }
+    },
+    {
+        "pk": 716,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Hawul"
+        }
+    },
+    {
+        "pk": 717,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Jere"
+        }
+    },
+    {
+        "pk": 718,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Kaga"
+        }
+    },
+    {
+        "pk": 719,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Kala/Balge"
+        }
+    },
+    {
+        "pk": 720,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Konduga"
+        }
+    },
+    {
+        "pk": 721,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Kukawa"
+        }
+    },
+    {
+        "pk": 722,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Kwaya-Kusar"
+        }
+    },
+    {
+        "pk": 723,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Mafa"
+        }
+    },
+    {
+        "pk": 724,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Magumeri"
+        }
+    },
+    {
+        "pk": 725,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Maiduguri"
+        }
+    },
+    {
+        "pk": 726,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Marte"
+        }
+    },
+    {
+        "pk": 727,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Mobbar"
+        }
+    },
+    {
+        "pk": 728,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Monguno"
+        }
+    },
+    {
+        "pk": 729,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Ngala"
+        }
+    },
+    {
+        "pk": 730,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Nganzai"
+        }
+    },
+    {
+        "pk": 731,
+        "model": "states.lga",
+        "fields": {
+            "state": 8,
+            "name": "Shani"
+        }
+    },
+    {
+        "pk": 732,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Agaie"
+        }
+    },
+    {
+        "pk": 733,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Agawara"
+        }
+    },
+    {
+        "pk": 734,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Bida"
+        }
+    },
+    {
+        "pk": 735,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Borgu"
+        }
+    },
+    {
+        "pk": 736,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Bosso"
+        }
+    },
+    {
+        "pk": 737,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Chanchaga"
+        }
+    },
+    {
+        "pk": 738,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Edati"
+        }
+    },
+    {
+        "pk": 739,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Gbako"
+        }
+    },
+    {
+        "pk": 740,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Gurara"
+        }
+    },
+    {
+        "pk": 741,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Katcha"
+        }
+    },
+    {
+        "pk": 742,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Kontagora"
+        }
+    },
+    {
+        "pk": 743,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Lapai"
+        }
+    },
+    {
+        "pk": 744,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Lavun"
+        }
+    },
+    {
+        "pk": 745,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Magama"
+        }
+    },
+    {
+        "pk": 746,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Mariga"
+        }
+    },
+    {
+        "pk": 747,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Mashegu"
+        }
+    },
+    {
+        "pk": 748,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Mokwa"
+        }
+    },
+    {
+        "pk": 749,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Moya"
+        }
+    },
+    {
+        "pk": 750,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Paikoro"
+        }
+    },
+    {
+        "pk": 751,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Rafi"
+        }
+    },
+    {
+        "pk": 752,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Rijau"
+        }
+    },
+    {
+        "pk": 753,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Shiroro"
+        }
+    },
+    {
+        "pk": 754,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Suleja"
+        }
+    },
+    {
+        "pk": 755,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Tafa"
+        }
+    },
+    {
+        "pk": 756,
+        "model": "states.lga",
+        "fields": {
+            "state": 27,
+            "name": "Wushishi"
+        }
+    },
+    {
+        "pk": 757,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Aba North"
+        }
+    },
+    {
+        "pk": 758,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Aba South"
+        }
+    },
+    {
+        "pk": 759,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Arochukwu"
+        }
+    },
+    {
+        "pk": 760,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Bende"
+        }
+    },
+    {
+        "pk": 761,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Ikwuano"
+        }
+    },
+    {
+        "pk": 762,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Isiala-Ngwa-North"
+        }
+    },
+    {
+        "pk": 763,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Isiala-Ngwa-South"
+        }
+    },
+    {
+        "pk": 764,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Isuikwuato"
+        }
+    },
+    {
+        "pk": 765,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Obi-Ngwa"
+        }
+    },
+    {
+        "pk": 766,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Ohafia"
+        }
+    },
+    {
+        "pk": 767,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Osisioma"
+        }
+    },
+    {
+        "pk": 768,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Ugwunagbo"
+        }
+    },
+    {
+        "pk": 769,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Ukwa-East"
+        }
+    },
+    {
+        "pk": 770,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Ukwa-West"
+        }
+    },
+    {
+        "pk": 771,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Umu-Nneochi"
+        }
+    },
+    {
+        "pk": 772,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Umuahia-North"
+        }
+    },
+    {
+        "pk": 773,
+        "model": "states.lga",
+        "fields": {
+            "state": 1,
+            "name": "Umuahia-South"
+        }
+    }
+]

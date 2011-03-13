@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Services{% endblock %}
+
+{% block content %}
+<div class="section">
+    <h1 class="title">Services</h1>
+    <div class="entry">
+		{% if services %}
+		<ul>
+			{% for service in services %}
+			<li>
+				<h2><a href="{% url customers_edit_service id=service.pk %}">{{ service }}</a></h2>
+				{% if service.details %}{{ service.details }}{% endif %}
+			</li>
+			{% endfor %}
+		</ul>
+		{% else %}
+		<h2>Great Jabberwocky! You haven't created any services yet.</h2>
+		{% endif %}
+		<p><a href="{% url customers_add_service %}">Add a Service</a></p>
+    </div>
+	<div class="meta"></div>
+</div>
+{% endblock %}

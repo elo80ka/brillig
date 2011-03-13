@@ -1,0 +1,22 @@
+{% load form_tags %}
+<li>
+{% spaceless %}
+    {% if field|is_boolean %}
+    <label for="{{ field.auto_id }}">{{ field }} {{ field|format_label }}</label>
+    {% else %}
+    {% if field.label %}<label{% if not field|is_radio %} for="{{ field.auto_id }}"{% endif %}>{{ field|format_label }}</label>{% endif %}
+    {% if field.help_text and show_help %}<em>{{ field.help_text|safe }}</em>{% endif %}
+    {{ field }}
+    {% endif %}
+    {% if field.errors %}
+    <div class="tooltip-bubble">
+        <span class="field-error">
+            {% for error in field.errors %}{{ error }}{% if not forloop.last %}<br />{% endif %}{% endfor %}
+        </span>
+        <div class="tooltip-pointer-down">
+            <div class="tooltip-pointer-down-overlay"></div>
+        </div>
+    </div>
+    {% endif %}
+{% endspaceless %}
+</li>
