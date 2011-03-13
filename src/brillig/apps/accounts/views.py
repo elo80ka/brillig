@@ -7,7 +7,14 @@ from accounts.models import *
 from accounts.forms import *
 
 def find(request):
-    return render_to_response('accounts/index.html',
+    msisdn = request.REQUEST.get('q')
+    customer = None
+    if msisdn:
+        try:
+            customer = Customer.objects.get(msisdn=msisdn)
+        except Customer.DoesNotExist:
+            messages.warning(request, _(u'No customer was found with phone number: %s' % msisdn))
+    return render_to_response('accounts/index.html', {'msisdn': msisdn, 'customer': customer},
         context_instance=RequestContext(request))
     
 def manage_customer(request, msisdn=None):
