@@ -149,19 +149,21 @@ img.right {
 	background: url(../images/one_tree_valley.jpg) no-repeat center top;
 }
 
-#logo {
-	width: 620px;
-	height: 60px;
+#logo-wrap {
+	position: relative;
 	margin: 0 auto;
+	width: 620px;
 }
-
+#logo {
+	height: 60px;
+}
 #logo h1, #logo h2 {
 	float: left;
 	margin: 0;
 	padding: 0 0 0 20px;
 	line-height: normal;
 }
-#logo h1 { 
+#logo h1 {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size:36px;
 	font-style: italic;
@@ -191,8 +193,7 @@ img.right {
 /* Page */
 
 #page {
-	position: relative;
-	padding-top: 20px;
+	padding-top: 25px;
 }
 
 /* Post */
@@ -207,6 +208,7 @@ img.right {
 }
 
 .section h1 {
+	padding-left: 10px;
 }
 
 .section h2 {
@@ -508,7 +510,7 @@ form li:after {
     border-top: 10px solid #711111; /*#bfdcff;*/       /* Smaller triangle */
     border-right: 10px solid transparent;
 }
-.tooltip-bubble span {
+.tooltip-bubble div {
 	position: relative;          /* Place above the other elements */
     margin: 0;
     color: #f3f3f3; /*#222;*/
@@ -516,13 +518,12 @@ form li:after {
 }
 
 .messages {
-    width: 620px;
+    width: 640px;
     padding: 8px;
     background-color: #222;
 	opacity: 0.7;
-	left: -10px;
-	top: -10px;
-	bottom: inherit;
+	left: -20px;
+	bottom: 7px;
 }
 .messages .tooltip-pointer-down,
 .messages .tooltip-pointer-down-overlay {
@@ -536,8 +537,7 @@ form li:after {
 	border-left: 10px solid transparent;
 	border-color: #222 transparent transparent transparent;
 }
-.messages span {
-	display: block;
+.messages div {
 	text-align: center;
 	font-size: 14px;
 }

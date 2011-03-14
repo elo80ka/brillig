@@ -7,76 +7,82 @@
 		<link href="{{ STATIC_URL }}css/site.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-	
-	<div id="logo-wrap">
-	<div id="logo">
-		<h1><a href="{% url site_index %}">Brillig </a></h1>
-		<h2> Billing, simplified.</h2>
-	</div>
-	</div>
-	
-	<!-- start header -->
-	<div id="header" class="clearfix rounded">
-		<div id="menu" class="clearfix">
-			<ul>
-				<li><a href="{% url customers_list_services %}" class="services"><span>Services</span></a></li>
-				<li><a href="{% url customers_find_customer %}" class="customers"><span>Customers</span></a></li>
-				<li><a href="#" class="bills"><span>Bills</span></a></li>
-				<li><a href="#" class="payments"><span>Payments</span></a></li>
-				<li><a href="#" class="reports"><span>Reports</span></a></li>
-			</ul>
-		</div>
-	</div>
-	<!-- end header -->
-	<!-- start page -->
-	<div id="wrapper" class="rounded {% block pagecss %}{% endblock %}">
-		<div id="page">
-			<!-- start content -->
-			<div id="content">
-				{% for message in messages %}
-				<div class="tooltip-bubble messages {{ message.tags }}">
-					<span>{{ message }}</span>
-					<div class="tooltip-pointer-down">
-						<div class="tooltip-pointer-down-overlay"></div>
-					</div>
-				</div>{% endfor %}
-				{% block content %}
-				<div class="section">
-					<h1 class="title">Welcome to our website </h1>
-					<div class="entry">
-						<p><img src="{{ STATIC_URL }}images/img06.jpg" alt="" width="140" height="125" class="left" />This is Harvest, is a free template from <a href="http://freecsstemplates.org/">Free CSS Templates</a> released under a <a href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 License</a>. The flower photo is from <a href="http://www.pdphoto.org/">PDPhoto.org</a>. You're free to use this template for both commercial or personal use. I only ask that you link back to <a href="http://freecsstemplates.org/">my site</a> in some way. Enjoy :)</p>
-					</div>
-					<div class="meta">
-						<p class="byline">Posted on July 21, 2007 byFreeCssTemplates</p>
-						<p class="links"><a href="#" class="more">Read full article</a> <b>|</b> <a href="#" class="comments">Comments (32)</a></p>
-					</div>
+		<div id="logo-wrap">
+			{% comment %}
+			<div class="tooltip-bubble messages">
+				<div>This is one awesome message.</div>
+				<div class="tooltip-pointer-down">
+					<div class="tooltip-pointer-down-overlay"></div>
 				</div>
-				<div class="section">
-					<h2 class="title">Lorem Ipsum Dolor Volutpat</h2>
-					<div class="entry">
-						<p>Curabitur tellus. Phasellus tellus turpis, iaculis in, faucibus lobortis, posuere in, lorem. Donec a ante. Donec neque purus, adipiscing id, eleifend a, cursus vel, odio. Vivamus varius justo sit amet leo. Morbi sed libero. Vestibulum blandit augue at mi. Praesent fermentum lectus eget diam. Nam cursus, orci sit amet porttitor iaculis, ipsum massa aliquet nulla, non elementum mi elit a mauris. In hac habitasse platea.</p>
-						<p>Vestibulum blandit augue at mi. Praesent fermentum lectus eget diam. Nam cursus, orci sit amet porttitor iaculis, ipsum massa aliquet nulla, non elementum mi elit a mauris. In hac habitasse platea.</p>
-					</div>
-					<div class="meta">
-						<p class="byline">Posted on July 18, 2007 byFreeCssTemplates</p>
-						<p class="links"><a href="#" class="more">Read full article</a> <b>|</b> <a href="#" class="comments">Comments (32)</a></p>
-					</div>
-				</div>
-				{% endblock %}
 			</div>
-			<!-- end content -->
+			{% endcomment %}
+			{% for message in messages %}
+			<div class="tooltip-bubble messages {{ message.tags }}">
+				<div>{{ message }}</div>
+				<div class="tooltip-pointer-down">
+					<div class="tooltip-pointer-down-overlay"></div>
+				</div>
+			</div>{% endfor %}
+			<div id="logo">
+				<h1><a href="{% url site_index %}">Brillig </a></h1>
+				<h2> Billing, simplified.</h2>
+			</div>
 		</div>
-		<!-- end page -->
-	</div>
-	<!-- start footer -->
-	<div id="footer">
-		<div id="footer-wrap">
-			<p id="legal">
-				&copy; Brillig, 2011.
-				Design based on <a href="http://www.freecsstemplates.org/preview/harvest">Harvest</a> by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.
-			</p>
+		<!-- start header -->
+		<div id="header" class="clearfix rounded">
+			<div id="menu" class="clearfix">
+				<ul>
+					<li><a href="{% url customers_list_services %}" class="services"><span>Services</span></a></li>
+					<li><a href="{% url customers_find_customer %}" class="customers"><span>Customers</span></a></li>
+					<li><a href="#" class="bills"><span>Bills</span></a></li>
+					<li><a href="#" class="payments"><span>Payments</span></a></li>
+					<li><a href="#" class="reports"><span>Reports</span></a></li>
+				</ul>
+			</div>
 		</div>
-	</div>
-	<!-- end footer -->
+		<!-- end header -->
+		<!-- start page -->
+		<div id="wrapper" class="rounded {% block pagecss %}{% endblock %}">
+			<div id="page">
+				<!-- start content -->
+				<div id="content">
+					{% block content %}
+					<div class="section">
+						<h1 class="title">Welcome to our website </h1>
+						<div class="entry">
+							<p><img src="{{ STATIC_URL }}images/img06.jpg" alt="" width="140" height="125" class="left" />This is Harvest, is a free template from <a href="http://freecsstemplates.org/">Free CSS Templates</a> released under a <a href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 License</a>. The flower photo is from <a href="http://www.pdphoto.org/">PDPhoto.org</a>. You're free to use this template for both commercial or personal use. I only ask that you link back to <a href="http://freecsstemplates.org/">my site</a> in some way. Enjoy :)</p>
+						</div>
+						<div class="meta">
+							<p class="byline">Posted on July 21, 2007 byFreeCssTemplates</p>
+							<p class="links"><a href="#" class="more">Read full article</a> <b>|</b> <a href="#" class="comments">Comments (32)</a></p>
+						</div>
+					</div>
+					<div class="section">
+						<h2 class="title">Lorem Ipsum Dolor Volutpat</h2>
+						<div class="entry">
+							<p>Curabitur tellus. Phasellus tellus turpis, iaculis in, faucibus lobortis, posuere in, lorem. Donec a ante. Donec neque purus, adipiscing id, eleifend a, cursus vel, odio. Vivamus varius justo sit amet leo. Morbi sed libero. Vestibulum blandit augue at mi. Praesent fermentum lectus eget diam. Nam cursus, orci sit amet porttitor iaculis, ipsum massa aliquet nulla, non elementum mi elit a mauris. In hac habitasse platea.</p>
+							<p>Vestibulum blandit augue at mi. Praesent fermentum lectus eget diam. Nam cursus, orci sit amet porttitor iaculis, ipsum massa aliquet nulla, non elementum mi elit a mauris. In hac habitasse platea.</p>
+						</div>
+						<div class="meta">
+							<p class="byline">Posted on July 18, 2007 byFreeCssTemplates</p>
+							<p class="links"><a href="#" class="more">Read full article</a> <b>|</b> <a href="#" class="comments">Comments (32)</a></p>
+						</div>
+					</div>
+					{% endblock %}
+				</div>
+				<!-- end content -->
+			</div>
+			<!-- end page -->
+		</div>
+		<!-- start footer -->
+		<div id="footer">
+			<div id="footer-wrap">
+				<p id="legal">
+					&copy; Brillig, 2011.
+					Design based on <a href="http://www.freecsstemplates.org/preview/harvest">Harvest</a> by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.
+				</p>
+			</div>
+		</div>
+		<!-- end footer -->
 	</body>
 </html>

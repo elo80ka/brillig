@@ -20,13 +20,17 @@ class CustomerForm(ModelForm):
         
     @commit_on_success
     def save(self, commit=True):
-        account = Account.objects.create(id=uuid.uuid4().hex)
-        customer = super(CustomerForm, self).save(commit=False)
-        customer.account = account
-        if commit:
-            customer.save()
-            self.save_m2m()
-        return customer
+        if not self.instance:
+            # We're probably dealing with a new customer.
+            account = Account.objects.create(id=uuid.uuid4().hex)
+            customer = super(CustomerForm, self).save(commit=False)
+            customer.account = account    
+            if commit:
+                customer.save()
+                self.save_m2m()
+            return customer
+        else:
+            return super(CustomerForm, self).save(commit=commit)
 
 class ServiceForm(ModelForm):
     class Meta:

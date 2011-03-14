@@ -16,6 +16,10 @@ urlpatterns = patterns('django.contrib.auth.views',
 )
 
 urlpatterns += patterns('',
+    url(r'^api/1.0/', include('api.urls')),
+)
+
+urlpatterns += patterns('',
     url(r'^$', 'django.views.generic.simple.direct_to_template', {'template': 'index.html'}, name='site_index'),
     url(r'^customers/', include('accounts.urls')),
     

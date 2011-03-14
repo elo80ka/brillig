@@ -10,9 +10,9 @@
     {% endif %}
     {% if field.errors %}
     <div class="tooltip-bubble">
-        <span class="field-error">
+        <div class="field-error">
             {% for error in field.errors %}{{ error }}{% if not forloop.last %}<br />{% endif %}{% endfor %}
-        </span>
+        </div>
         <div class="tooltip-pointer-down">
             <div class="tooltip-pointer-down-overlay"></div>
         </div>
