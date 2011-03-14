@@ -1,10 +1,14 @@
 from piston.handler import BaseHandler
-from piston.utils import require_mime, validate
+from piston.utils import rc, require_mime, validate
+from piston.utils import FormValidationError
 from api.resource import Resource
 from accounts.models import Customer, Service
 from accounts.forms import CustomerForm, ServiceForm
 
 class CustomerHandler(BaseHandler):
+    """
+    Provides a REST API for managing Customer accounts and Subscriptions.
+    """
     allowed_methods = ('GET', 'POST', 'PUT',)
     model = Customer
     fields = (
@@ -38,5 +42,16 @@ class CustomerHandler(BaseHandler):
             raise FormValidationError(form)
             
         return form.save()
+        
+
+class ServiceHandler(BaseHandler):
+    """
+    Provides a REST API for managing Services.
+    """
+    allowed_methods = ('GET',)
+    model = Service
+    fields = ('code', 'name', 'rate',)
+
 
 customer_handler = Resource(CustomerHandler)
+service_handler = Resource(ServiceHandler)
