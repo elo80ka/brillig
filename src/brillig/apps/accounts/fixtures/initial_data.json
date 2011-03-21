@@ -1,0 +1,56 @@
+[
+    {
+        "pk": "2348035082026", 
+        "model": "accounts.customer", 
+        "fields": {
+            "services": [
+                "BUZZ", 
+                "911"
+            ], 
+            "created_at": "2011-03-13 18:48:17", 
+            "account": "05dd077bcf324f8fa975bb132e7b04cc", 
+            "name": "Madueke Stanislaus Chukwueloka", 
+            "address": ""
+        }
+    }, 
+    {
+        "pk": "2348122519068", 
+        "model": "accounts.customer", 
+        "fields": {
+            "services": [
+                "911"
+            ], 
+            "created_at": "2011-03-14 21:26:13", 
+            "account": "ee9cfb5116e845b1b14febbffa74f36e", 
+            "name": "", 
+            "address": ""
+        }
+    }, 
+    {
+        "pk": "BUZZ", 
+        "model": "accounts.service", 
+        "fields": {
+            "rate": "5", 
+            "name": "\"The daily 411\"", 
+            "details": "Keep abreast of happenings all over Nigeria. Don't worry -- we try not to spam."
+        }
+    }, 
+    {
+        "pk": "911", 
+        "model": "accounts.service", 
+        "fields": {
+            "rate": "35", 
+            "name": "Emergency Alerts (Nationwide)", 
+            "details": ""
+        }
+    }, 
+    {
+        "pk": "PH_ALERTS", 
+        "model": "accounts.service", 
+        "fields": {
+            "rate": "5", 
+            "name": "Port Harcourt Alerts", 
+            "details": "General alerts of happenings within Port Harcourt City."
+        }
+    }
+]

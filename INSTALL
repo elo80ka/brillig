@@ -1,0 +1,8 @@
+
+Dependencies
+=============
+ * django trunk (1.3 RC 1): 
+ * py-amqplib: http://barryp.org/software/py-amqplib/
+ * anyjson: http://pypi.python.org/pypi/anyjson/0.3
+ * Kombu: http://pypi.python.org/pypi/kombu
+ * django-piston: https://bitbucket.org/jespern/django-piston

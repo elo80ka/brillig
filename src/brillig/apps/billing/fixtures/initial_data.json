@@ -1,0 +1,16 @@
+[
+    {
+        "pk": "05dd077bcf324f8fa975bb132e7b04cc", 
+        "model": "billing.account", 
+        "fields": {
+            "balance": "0"
+        }
+    }, 
+    {
+        "pk": "ee9cfb5116e845b1b14febbffa74f36e", 
+        "model": "billing.account", 
+        "fields": {
+            "balance": "0"
+        }
+    }
+]
