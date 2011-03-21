@@ -20,6 +20,7 @@ class Customer(models.Model):
 
 
 class Service(models.Model):
+    # TODO: Some of these properties will be moved to the Tariff Plan.
     code = models.CharField(max_length=50, primary_key=True, db_index=True,
         help_text=_("This is how you'll identify the service internally."))
     name = models.CharField(max_length=250, help_text=_("This should be a friendlier name for your customers."))

@@ -4,6 +4,7 @@ from django.db import transaction
 from django.forms import fields, models, widgets
 from django.utils.translation import ugettext_lazy as _
 from accounts.models import Customer, Service, Usage
+from accounts.messaging import customer_created
 from billing.models import Account
 from form_utils.base import Form, ModelForm
 import csv
@@ -23,13 +24,17 @@ class CustomerForm(ModelForm):
     @transaction.commit_on_success
     def save(self, commit=True):
         if not self.instance:
-            # We're probably dealing with a new customer.
+            # We're dealing with a new customer.
             account = Account.objects.create(id=uuid.uuid4().hex)
             customer = super(CustomerForm, self).save(commit=False)
             customer.account = account    
             if commit:
                 customer.save()
                 self.save_m2m()
+            # Pop this customer in our queue:
+            customer_dict = models.model_to_dict(customer)
+            customer_created(customer_dict)
+            # Return our brand-new customer:
             return customer
         else:
             return super(CustomerForm, self).save(commit=commit)

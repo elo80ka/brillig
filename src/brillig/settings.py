@@ -155,3 +155,26 @@ LOGGING = {
         },
     }
 }
+
+MESSAGE_BROKER_CONFIGS = {
+    'production': {
+        'connection': {
+            'hostname': 'localhost',
+            'userid': 'guest',
+            'password': 'guest',
+            'virtual_host': '/',
+            'port': 5672,
+            'ssl': False, 
+            'transport': None,
+        },
+        'exchanges': {
+            'accounts': {
+                'exchange': 'accounts',
+                'routing_key': 'customer_created',
+                'exchange_type': 'direct',
+                'durable': True,
+            },
+        }
+    }
+}
+MESSAGE_BROKER_ACTIVE_CONFIG = 'production'

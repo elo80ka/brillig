@@ -6,3 +6,4 @@ Dependencies
  * anyjson: http://pypi.python.org/pypi/anyjson/0.3
  * Kombu: http://pypi.python.org/pypi/kombu
  * django-piston: https://bitbucket.org/jespern/django-piston
+ * RabbitMQ: http://www.rabbitmq.com/download.html
