@@ -48,7 +48,7 @@ class ServiceHandler(BaseHandler):
     """
     Provides a REST API for managing Services.
     """
-    allowed_methods = ('GET',)
+    allowed_methods = ('GET', 'POST',)
     model = Service
     fields = ('code', 'name', 'rate',)
 

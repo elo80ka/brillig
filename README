@@ -39,10 +39,10 @@ number of features have *intentionally* been left out::
 Okay, enough of that. Here's what Brillig _should_ handle::
 
  1. Accounts:
-    An account is an abstract entity, represented by a unique identifier (UUID?)
+    An account is an abstract entity, represented by a unique identifier (UUID).
     It exists, to act as a container for the other entities. Callers will
-    probably want to map accounts to users in their backend systems; how they do
-    this is up to them.
+    probably want to map accounts to customers in their backend systems; how they
+    do this is up to them.
     
  2. Tariff Plans:
     A tariff plan is basically a relation for converting usage units to cost. 
@@ -93,11 +93,11 @@ So, anyway...the API. Yeah.
 
 API Security
 -------------
-Should we care about this at all, or leave it up to the network?
+Should we care about this at all, or leave it up to someone else?
 
 API Methods
 -------------
- 1. Create a new account:
+ 1. Create a new Customer:
     
     POST `/api/1.0/accounts`
     

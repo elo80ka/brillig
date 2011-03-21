@@ -35,3 +35,20 @@ class Service(models.Model):
     def __unicode__(self):
         return self.name
     
+    
+class Usage(models.Model):
+    batch = models.CharField(max_length=32, db_index=True)
+    customer = models.ForeignKey(Customer, related_name='usage')
+    service = models.ForeignKey(Service, related_name='usage')
+    used_at = models.DateTimeField(default=datetime.now)
+    
+    class Meta:
+        verbose_name = _('Service Usage Record')
+        verbose_name_plural = _('Service Usage Records')
+        ordering = ('used_at',)
+        
+    def __unicode__(self):
+        return u'%s received %s on %s' % (
+            self.customer, self.service, self.used_at
+        )
+    

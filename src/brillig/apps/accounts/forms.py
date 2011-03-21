@@ -1,10 +1,12 @@
 from django import forms
-from django.db.transaction import commit_on_success
-from django.forms import models, widgets
+from django.conf import settings
+from django.db import transaction
+from django.forms import fields, models, widgets
 from django.utils.translation import ugettext_lazy as _
-from accounts.models import Customer, Service
+from accounts.models import Customer, Service, Usage
 from billing.models import Account
 from form_utils.base import Form, ModelForm
+import csv
 import uuid
 
 class CustomerForm(ModelForm):
@@ -18,7 +20,7 @@ class CustomerForm(ModelForm):
             'address': widgets.Textarea,
         }
         
-    @commit_on_success
+    @transaction.commit_on_success
     def save(self, commit=True):
         if not self.instance:
             # We're probably dealing with a new customer.
@@ -38,3 +40,31 @@ class ServiceForm(ModelForm):
         widgets = {
             'details': widgets.Textarea,
         }
+    
+class UsageForm(Form):
+    file = fields.FileField(label=u'Select usage file (CSV)',
+        help_text=_('You can download a <a href="%sfiles/sample-usage.csv">sample usage file</a>.' % settings.STATIC_URL))
+    
+    def clean_file(self):
+        uploaded = self.cleaned_data.get('file')
+        if uploaded and uploaded.content_type != 'text/csv':
+            raise forms.ValidationError(u'Usage file should be a CSV file.')
+        return uploaded
+    
+    @transaction.commit_manually
+    def save(self):
+        # Note: For now, I don't attempt to filter out non-existent customers
+        #       or services -- be a good lad, and don't send me crap :|
+        #       I'll fix this soon as I can write a more efficient import query.
+        batch = uuid.uuid4().hex
+        rdr = csv.reader(self.cleaned_data['file'].file)
+        headers = rdr.next()
+        try:
+            for row in rdr:
+                kwargs = dict(zip(headers, row))
+                kwargs['batch'] = batch
+                Usage.objects.create(**kwargs)
+            transaction.commit()
+        except:
+            transaction.rollback()
+            raise

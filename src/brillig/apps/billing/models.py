@@ -37,9 +37,9 @@ class Charge(models.Model):
 
 
 class PaymentStatus(models.Model):
-    """Payment Gateway-defined status messages. E.g: 'Pending', 'Payment Done', 'Failed' etc.
+    """Payment Gateway-defined status messages. E.g: 'Pending', 'Done', 'Failed' etc.
     """
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, primary_key=True, db_index=True)
     
     class Meta:
         verbose_name = _('Payment status')

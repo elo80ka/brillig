@@ -88,7 +88,7 @@ img.right {
 
 #menu {
 	float: left;
-	margin-left: 12%;
+	margin-left: 14%;
 }
 #menu ul {
 	margin: 0;
@@ -131,6 +131,9 @@ img.right {
 }
 #menu a.customers {
 	background: url(../images/customers.png) 50% 50% no-repeat;
+}
+#menu a.usage {
+	background: url(../images/usage.png) 50% 50% no-repeat;
 }
 #menu a.bills {
 	background: url(../images/bills.png) 50% 50% no-repeat;
@@ -356,6 +359,7 @@ legend {
 }
 input[type="text"],
 input[type="password"],
+input[type="file"],
 textarea, select {
 	padding: 5px 8px;
 	font: 13px/14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -368,7 +372,8 @@ textarea, select {
 	border-radius: 5px;
 }
 input[type="text"],
-input[type="password"] {
+input[type="password"],
+input[type="file"] {
 	height: 22px;
 }
 textarea {
@@ -376,6 +381,7 @@ textarea {
 }
 input[type="text"]:focus,
 input[type="password"]:focus,
+input[type="file"]:focus,
 textarea:focus,
 select:focus {
 	border-color: #48ACDE !important;

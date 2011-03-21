@@ -49,3 +49,16 @@ def manage_service(request, id=None):
         form = ServiceForm(instance=service)
     return render_to_response('accounts/form.html', {'form': form, 'instance': service, 'title': title},
         context_instance=RequestContext(request))
+    
+def usage(request):
+    title = _('Upload Service Usage')
+    if request.method == 'POST':
+        form = UsageForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            messages.success(request, _(u'Usage data was successfully saved.'))
+            return redirect(usage)
+    else:
+        form = UsageForm()
+    return render_to_response('accounts/form.html', {'form': form, 'title': title},
+        context_instance=RequestContext(request))

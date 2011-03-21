@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load form_tags %}
+{% load accounts form_tags %}
 
 {% block title %}Customers{% endblock %}
 
@@ -15,5 +15,18 @@
             </div>
         </form>
     </div>
+    {% if customer %}
+    <div class="entry">
+        <h2>
+            {{ customer.msisdn|format_phone_number }}
+        </h2>
+        {% with customer.services.all as services %}
+        <p>
+            {% if services %}Subscribed to: {{ services|join:", " }}{% endif %}
+        </p>
+        {% endwith %}
+    </div>
+    <div class="meta"></div>
+    {% endif %}
 </div>
 {% endblock %}
